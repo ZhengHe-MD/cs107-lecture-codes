@@ -3,6 +3,7 @@ CFLAGS = -I.
 
 LECTURE_2 = lecture_2
 LECTURE_3 = lecture_3
+LECTURE_4 = lecture_4
 PROCS = $(LECTURE_2) $(LECTURE_3)
 HDRS = printbinary.h
 SRCS = lecture_2.c lecture_3.c printbinary.c
@@ -13,6 +14,9 @@ $(LECTURE_2): lecture_2.o printbinary.o
 
 $(LECTURE_3): lecture_3.o printbinary.o
 	$(CC) -o lecture_3 lecture_3.o printbinary.o $(CFLAGS)
+
+$(LECTURE_4): lecture_4.o printbinary.o
+	$(CC) -o lecture_4 lecture_4.o printbinary.o $(CFLAGS)
 
 clean:
 	rm -f *.o $(PROCS)
