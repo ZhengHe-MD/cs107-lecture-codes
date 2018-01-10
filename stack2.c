@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include "generic_stack.h"
+#include "stack2.h"
 
 #define kInitialAllocationSize 4
 // The implementation chooses to allocate space for 4 client 

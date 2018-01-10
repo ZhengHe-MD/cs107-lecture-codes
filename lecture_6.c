@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "generic_stack.h"
+#include "stack2.h"
 
 int main(int argc, char** argv) {
   int val;

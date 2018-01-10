@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "stack.h"
+#include "stack1.h"
 
 void *lsearch(void *key, void *base, int size, int elemSize, int (* cmpFn)(void *, void *)) {
     for (int i = 0; i < size; i++) {

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <assert.h>
-#include "stack.h"
+#include "stack1.h"
 
 void StackNew(Stack *s) {
     s->loglength = 0;
